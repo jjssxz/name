@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 86, 217, 255);
+    border: solid 1px rgba(62, 127, 221, 255);
+    border-radius: 15px;
+}
+
+.inputRespostas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    width: 135px;
+    display: inline-block;
+}
+
+input {
+    width: 130px;
+    height: 30px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
